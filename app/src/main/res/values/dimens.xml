@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="regular_margin">15dp</dimen>
+    <dimen name="screen_label_text_size">32sp</dimen>
+    <dimen name="screen_label_regular_margin">15dp</dimen>
+</resources>

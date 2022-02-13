@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E91E63"
+    tools:context=".CreateFragment">
+
+    <TextView
+        android:id="@+id/create_note_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/screen_label_regular_margin"
+        android:layout_marginTop="@dimen/screen_label_regular_margin"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/new_note_creating"
+        android:textColor="@color/black"
+        android:textSize="@dimen/screen_label_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/note_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/regular_margin"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/name"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/note_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/regular_margin"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/body"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@id/note_name"
+        app:layout_constraintStart_toStartOf="@id/note_name"
+        app:layout_constraintTop_toBottomOf="@id/note_name" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/create_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/regular_margin"
+        android:background="@drawable/outlined_create_button"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingHorizontal="20dp"
+        android:text="@string/create"
+        android:textColor="#96E6A1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

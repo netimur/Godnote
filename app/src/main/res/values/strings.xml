@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TryApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Note name</string>
+    <string name="body">Note body</string>
+    <string name="create_fragment">CREATE</string>
+    <string name="create">create</string>
+    <string name="new_note_creating">New note creating</string>
+    <string name="note_list">Note list</string>
+    <string name="note_view">Note view</string>
+    <string name="update_note">Update note</string>
+    <string name="update">Update</string>
+    <string name="delete">delete</string>
+</resources>
